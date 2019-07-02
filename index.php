@@ -9,7 +9,7 @@
  </head>
  <body>
  <center>
- 	<h1>PENCARIAN KATA DASAR PADA BAHASA MELAYU<br> DENGAN ALGORITMA NAZIEF</h1>
+ 	<h1>PENCARIAN KATA DASAR DENGAN ALGORITMA NAZIEF</h1>
  	<form method="post" action="">
  		<input type="text" name="kata" id="kata" size="20" value="<?php if(isset($_POST['kata'])){ echo $_POST['kata']; }else{ echo '';}?>">
  		<input type="submit" name="submit" value="Submit">
